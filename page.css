@@ -1034,16 +1034,12 @@ input[type='date']{
 		padding: 1px 3px;
 		border-radius: 0;
 }
-input[type='date']{
-    &::-webkit-inner-spin-button {
+input[type='date']::-webkit-inner-spin-button{
         display: none;
-    }
 }
-input[type='date']{
-    &::-webkit-calendar-picker-indicator {
+input[type='date']::-webkit-calendar-picker-indicator {
 				width: 100%;
 				color: transparent;
-    }
 }
 
 .tenpo_box {

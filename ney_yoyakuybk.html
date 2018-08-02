@@ -1,0 +1,47 @@
+<table width="670" border="0" cellspacing="0" cellpadding="0" class="net_yoyaku_table">
+<tr>
+	<td class="koumoku">ご来店希望店舗<br /><span class="red"><b>［必須］</b></span></td>
+	<td colspan="2">
+        [tenpo_info2]
+        [event_yoyaku]
+	</td>
+</tr>
+<tr>
+<td class="koumoku">ご来店希望日時<br /><span class="red"><b>［必須］</b></span></td>
+<td colspan="2">
+<p>例）　1（月）1（日）13（時頃）</p>
+&#8249;第1希望&#8250;&nbsp;[text* m1kibou 5/]月[text* d1kibou 5/]日　[text* h1kibou 5/]時頃<br>
+&#8249;第2希望&#8250;&nbsp;[text m2kibou 5/]月[text d2kibou 5/]日　[text h2kibou 5/]時頃<br>
+&#8249;第3希望&#8250;&nbsp;[text m3kibou 5/]月[text d3kibou 5/]日　[text h3kibou 5/]時頃<br>
+<span style="color: #ff0000; background-color: transparent">※毎週水曜日は定休日です。</span>
+</td>
+</tr>
+<tr>
+<td class="koumoku">お名前<span class="red"><b>［必須］</b></span></td>
+<td>[text* your-name akismet:author]</td>
+</tr>
+
+<tr>
+<td class="koumoku">メールアドレス<br /><span class="red"><b>［必須］</b></span></td>
+<td>[email* your-email akismet:author_email]</td>
+</tr>
+
+<tr>
+<td class="koumoku">電話番号<span class="red"><b>［必須］</b></span></td>
+<td><span>[text* tell id:tel]</span></td>
+</tr>
+
+<tr>
+<td class="koumoku">希望相談箇所<br />（複数選択可）</td>
+<td>
+[checkbox kibou id:kibou use_label_element "キッチン" "浴室" "洗面" "トイレ" "外装（屋根・外壁）" "玄関" "増改築／全面改装" "内装"]</td>
+</tr>
+<tr>
+<td class="koumoku">その他ご質問など</td>
+<td>[textarea your-message 48x8 class:check_m]</td>
+</tr>
+</table>
+<p class="center">
+<input type="image" src="/wp-content/themes/reform/page_image/net_yoyaku/net_yoyaku_08_rollout.jpg" id="send_btn" onmouseover="this.src='/wp-content/themes/reform/page_image/net_yoyaku/net_yoyaku_08_rollover.jpg'" onmouseout="this.src='/wp-content/themes/reform/page_image/net_yoyaku/net_yoyaku_08_rollout.jpg'" />
+</p>
+</div>

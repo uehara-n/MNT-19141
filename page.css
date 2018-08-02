@@ -1025,6 +1025,27 @@ background-color: #C50119;
 	margin-bottom: 10px;
 }
 
+
+/*  カレンダーカスタム　*/
+input[type='date']{
+		background: #f7f7f7;
+		border: 1px solid #ccc;
+		font-size: 18px;
+		padding: 1px 3px;
+		border-radius: 0;
+}
+input[type='date']{
+    &::-webkit-inner-spin-button {
+        display: none;
+    }
+}
+input[type='date']{
+    &::-webkit-calendar-picker-indicator {
+				width: 100%;
+				color: transparent;
+    }
+}
+
 .tenpo_box {
 	float:left;
 	padding:0 5px 10px;

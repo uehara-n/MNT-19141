@@ -1035,10 +1035,15 @@ input[type='date']{
 		border-radius: 0;
 }
 input[type='date']::-webkit-inner-spin-button{
-        display: none;
+    display: none;
 }
 input[type='date']::-webkit-calendar-picker-indicator {
-				color: transparent;
+		color: transparent;
+		width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
 }
 
 .tenpo_box {

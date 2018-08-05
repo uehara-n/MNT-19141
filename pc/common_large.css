@@ -1,0 +1,109 @@
+@charset "utf-8";
+#fontsize_s a {
+	background-image: url(../common/fontsize_small_a.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 24px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+}
+#fontsize_s a:hover,#fontsize_s a:active {
+	background-image: url(../common/fontsize_small_b.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 24px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+}
+#fontsize_d a {
+	background-image: url(../common/fontsize_defl_a.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 24px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+}
+#fontsize_d a:hover,#fontsize_d a:active {
+	background-image: url(../common/fontsize_defl_b.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 24px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+}
+#fontsize_l a {
+	background-image: url(../common/fontsize_large_b.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 21px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+}
+#fontsize_l a:hover,#fontsize_l a:active {
+	background-image: url(../common/fontsize_large_b.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 21px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+}
+
+#footer_text01 {
+	font-size: 12px;
+	color: #330000;
+	margin: 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#footer_text02 {
+	margin: 0px;
+	width: 650px;
+	font-size: 12px;
+	padding-top: 17px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#footer_text03 {
+	font-size: 12px;
+	color: #333333;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+.footer_content02_left .footer_text04 {
+	font-weight: bold;
+	color: #333;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	font-size: 14px;
+}
+.footer_content02_left .footer_text03 {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 14px;
+}

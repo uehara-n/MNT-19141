@@ -739,7 +739,7 @@ background-color: #C50119;
     font-weight: bold;
 }
 #company_page .view{
-	margin: 20px auto 10px; 
+	margin: 20px auto 10px;
 }
 
 /*よくあるご相談*/
@@ -959,9 +959,76 @@ background-color: #C50119;
     filter: alpha(opacity=80);
     -moz-opacity: 0.8;
 }
+
 /*ネット予約*/
+/* .pc { display: block !important; }
+.sp { display: none !important; }
+@media only screen and (max-width: 750px) {
+.pc { display: none !important; }
+.sp { display: block !important; }
+} */
+
 #raiten_page {
 }
+
+.top_title01{
+	margin-bottom: 30px;
+}
+
+.top_title01 img{
+	width: 100%;
+}
+
+h3.merit_tit{
+	text-align: center;
+	font-size: 30px!important;
+	font-weight: bold;
+	padding-bottom: 0px!important;
+	    margin-bottom: 37px;
+}
+
+h3.merit_tit span{
+	color: #c1171c;
+}
+
+h3.merit_tit span.num{
+	font-size: 40px;
+}
+
+.wrap_5merit{
+	display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.wrap_5merit .inbox{
+	width: 29%;
+	padding-right: 46px;
+	padding-bottom: 25px;
+}
+
+.wrap_5merit .inbox:nth-child(3){
+	padding-right: 0
+}
+
+.wrap_5merit .inbox img{
+	width: 100%;
+}
+
+/* .wrap_5merit .inbox .title{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.wrap_5merit .inbox .number{
+	font-size: 45px;
+	font-weight: bold;
+	color: #b68484;
+	font-family: "メイリオ", Meiryo,-apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, sans-serif;
+} */
 
 #raiten_page .top_img {
 	margin-bottom: 20px;
@@ -983,29 +1050,110 @@ background-color: #C50119;
 	border-bottom-style: solid;
 	border-bottom-color: #CA3200;
 }
+
+#raiten_page .viewmap{
+	margin-bottom: 25px;
+}
+
 .net_yoyaku_table {
-	border-top:1px solid #999;
+	/* border-top:1px solid #999;
 	border-right:1px solid #999;
-	border-left:1px solid #999;
+	border-left:1px solid #999; */
 	margin: 0 auto 0 auto;
 }
 .net_yoyaku_table.border_no{
 	border-bottom: none;
 }
 
+.net_yoyaku_table tr #kibou{
+	padding-left: 0!important;
+}
+
 .net_yoyaku_table td,.net_yoyaku_table td th {
-	padding:10px;
-	border-bottom:1px solid #999;
+	padding:7px;
+	border-bottom:none!important;
 }
 
 .net_yoyaku_table .koumoku {
-	background: #eee;
-	width:120px;
+	/* background: #eee; */
+	width:150px;
+	vertical-align: top;
+	text-align: right;
+	font-weight: bold;
+    font-size: 13px;
+}
+
+.net_yoyaku_table .koumoku .red,
+.net_yoyaku_table .koumoku .any{
+		padding: 0px 4px;
+		margin: 0 0 0 5px;
+}
+
+.net_yoyaku_table .koumoku .any{
+	background: #d8d9d9;
+	color: #fff;
+}
+
+.net_yoyaku_table .koumoku .red{
+		color: #fff;
+		background: red;
+}
+
+.net_yoyaku_table .calendar{
+	padding: 0 7px 8px;
+}
+
+.net_yoyaku_table .calendar input[type="date"]{
+	width:60%;
+}
+
+.net_yoyaku_table .input input,
+.net_yoyaku_table .input select,
+.net_yoyaku_table .input textarea{
+	background: #f7f7f7;
+	border-style: none;
+	padding: 10px ;
+}
+
+.net_yoyaku_table .input textarea{
+	width: 70%;
+}
+
+.net_yoyaku_table .input select[id="kibotenpo"]{
+	width: 100%;
+}
+
+.net_yoyaku_table .input p{
+	margin:0;
+}
+
+.net_yoyaku_form input[type="submit"] {
+    width: 60%;
+    font-size: 1.5rem;
+    padding: 1em .2em;
+    background: #c40018;
+    color: #fff;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 0 auto;
+		border: none;
+    font-family: Helvetica,Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic,“ヒラギノ角ゴ ProN W3″,“Hiragino Kaku Gothic ProN”, “メイリオ”,Meiryo, sans-serif;
+}
+
+.net_yoyaku_form input[type="submit"]:hover{
+	opacity: 0.8;
+}
+
+.net_yoyaku_table .sml_txt {
+	padding: 9px 0 0;
+	display: block;
+	line-height: 1.9;
 }
 
 #raiten_page .form{
 	border: solid 5px #CA3200;
-	padding: 0;
+	    padding: 0 8px 45px;
+			    margin: 0 0 50px!important;
 }
 #raiten_page .form .tit {
 	margin-bottom: 15px;
@@ -1022,7 +1170,52 @@ background-color: #C50119;
 	display: block;
 	float: left;
 	width: 160px;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
+}
+
+.wrap_cbnr{
+	text-align: center;
+}
+
+.wrap_cbnr h4.net_yoyaku{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px 0 40px;
+}
+
+.wrap_cbnr img.bnr{
+	width: 100%;
+	padding: 0 0 85px;
+}
+
+.bnr{
+	  position: relative;
+}
+
+.bnr img{
+	width: 100%;
+}
+
+/*  カレンダーカスタム　*/
+input[type='date']{
+		position: relative;
+		background: #f7f7f7;
+		border: 1px solid #ccc;
+		font-size: 15px;
+		padding: 1px 3px;
+		border-radius: 0;
+}
+input[type='date']::-webkit-inner-spin-button{
+        display: none;
+}
+input[type='date']::-webkit-calendar-picker-indicator {
+		position: absolute;
+		width:100%;
+		height: 100%;
+		top:0;
+		left: 0;
+		background: transparent;
+		color: transparent;
 }
 
 .tenpo_box {
@@ -1974,7 +2167,7 @@ p.raiten_event {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 90px;
+	/* margin-left: 90px; */
 	padding: 0px;
 }
 #kitchen2 .form_box #request_form_send {
@@ -2088,6 +2281,7 @@ p.raiten_event {
 .c_right {border-left:none}
 .mb20 {margin-bottom:20px}
 .mb40 {margin-bottom:40px}
+.tac{text-align: center;}
 ul.otegoro {
 background:#ffb3b5;
 list-style:none;
@@ -2318,7 +2512,7 @@ width: 204px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 90px;
+	/* margin-left: 90px; */
 	padding: 0px;
 }
 #request_form_send {
@@ -2429,7 +2623,7 @@ width: 204px;
 }
 
 input.submit_button {
-/*遒ｺ隱阪�騾∽ｿ｡繝懊ち繝ｳ*/
+/**/
     padding: 20px 50px;
     font-weight: bold;
     font-size:1.2em
@@ -2438,7 +2632,7 @@ input.submit_button {
 }
 
 #wpcf7-modify {
-/*蜈･蜉帑ｿｮ豁｣*/
+/**/
     padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 20px;
@@ -2449,7 +2643,7 @@ input.submit_button {
 }
 
 .wpcf7 span.wpcf7-not-valid-tip {
-/*繧ｨ繝ｩ繝ｼ蜀�ｮｹ*/
+/**/
     display: block;
     position: static;
     top: 0;
@@ -2517,9 +2711,9 @@ h2#contact_title{
 	padding: 15px;
 	/* [disabled]height:250px; */
 	margin-bottom: 20px;
-	border-radius: 10px;		/* CSS3闕画｡� */
-	-webkit-border-radius: 10px;	/* Safari,Google Chrome逕ｨ */
-	-moz-border-radius: 10px;	/* Firefox逕ｨ */}
+	border-radius: 10px;		/* CSS3 */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome */
+	-moz-border-radius: 10px;	/* Firefox */}
 #book_form .block p .check {
 	margin-left: 13px;
 }

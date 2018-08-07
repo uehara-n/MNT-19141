@@ -1025,28 +1025,6 @@ background-color: #C50119;
 	margin-bottom: 10px;
 }
 
-
-/*  カレンダーカスタム　*/
-input[type='date']{
-		position: relative;;
-		background: #f7f7f7;
-		border: 1px solid #ccc;
-		font-size: 18px;
-		padding: 1px 3px;
-		border-radius: 0;
-}
-input[type='date']::-webkit-inner-spin-button{
-    display: none;
-}
-input[type='date']::-webkit-calendar-picker-indicator {
-		color: transparent;
-		width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background: transparent;
-}
-
 .tenpo_box {
 	float:left;
 	padding:0 5px 10px;
@@ -2110,7 +2088,6 @@ p.raiten_event {
 .c_right {border-left:none}
 .mb20 {margin-bottom:20px}
 .mb40 {margin-bottom:40px}
-.tac{text-align: center;}
 ul.otegoro {
 background:#ffb3b5;
 list-style:none;
@@ -2540,9 +2517,9 @@ h2#contact_title{
 	padding: 15px;
 	/* [disabled]height:250px; */
 	margin-bottom: 20px;
-	border-radius: 10px;		/* CSS3 */
-	-webkit-border-radius: 10px;	/* Safari,Google Chrome */
-	-moz-border-radius: 10px;	/* Firefox */}
+	border-radius: 10px;		/* CSS3闕画｡� */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome逕ｨ */
+	-moz-border-radius: 10px;	/* Firefox逕ｨ */}
 #book_form .block p .check {
 	margin-left: 13px;
 }
